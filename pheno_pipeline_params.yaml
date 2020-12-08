@@ -1,0 +1,16 @@
+## Exomiser-based Gene Prioritization Pipeline Parameters
+---
+s3_bucket_name: 'mybucket' #s3 bucket where VCF and HPO files (not nested in 'directories') can be found and where output are to be written
+workdir: '/home/ubuntu/pipeline' #working directory where filtered output files are stored within nlp_output_dir
+nlp_terms_filename: 'NLPoutput.txt' #this file contains the Clinithink raw format list of HPO terms
+nlp_terms_orig_dirname: 'Clinithink_raw' #this is the "folder" on S3 where the original raw Clinithink output is stored as individual files
+manual_hpo_filename: 'output.txt' #this file contains the manually extracted HPO terms in the same format as the the nlp_hpo_filename (can be created using the python script format_manual_HPO.py
+nlp_hpo_filename_prefix: 'NLPoutput' #this prefix is what is appended to each filtered HPO filename
+nlp_output_dir: 'filtered_NLP_outputs' #this is the local directory where the filtered lists in the same format will be stored
+
+#VCF Files - path to vcf files on S3
+vcf_files: [
+    's3://mybucket/MAN_0676-01_BCH-19-78536-01.vcf',
+    's3://mybucket/MAN_1787-01_BCH-19-89554-01.vcf',
+    's3://mybucket/MAN_1795-01_BCH-19-82034-01.vcf'
+]
