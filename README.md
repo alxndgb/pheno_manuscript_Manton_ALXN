@@ -1,7 +1,8 @@
 # Phenotype Data Processing for Variant Prioritizers
 
 This project consists of scripts to support the manuscript:
-Parikh JR, Genetti CA et al.  A data-driven architecture using natural language processing to improve phenotyping efficiency and accelerate genetic diagnoses of rare disorders.
+
+Parikh JR, Genetti CA et al.  *A data-driven architecture using natural language processing to improve phenotyping efficiency and accelerate genetic diagnoses of rare disorders.*
 
 
 ## Data Processing Pipeline
