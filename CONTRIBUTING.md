@@ -1,3 +1,4 @@
-## How to contribute to this project
+This project consists of scripts to support the manuscript:
+Parikh JR, Genetti CA et al.  A data-driven architecture using natural language processing to improve phenotyping efficiency and accelerate genetic diagnoses of rare disorders.
 
-Please send a pull request with a summary of the proposed changes and be mindful of the people that will read your code. 
+This project is open source and available to all, but will not be actively maintained here beyond support for the mansucript.
